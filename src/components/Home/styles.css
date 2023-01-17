@@ -1,0 +1,28 @@
+.AnimateASaltar {
+    font-size: 195px;
+    position: absolute;
+    top: 855px;
+    color: #FFF388;
+    justify-content: center;
+    align-items: center;
+}
+.TenemosLoNecesario {
+    font-size: 55px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.AlcancesTusObjetivos {
+    font-size: 55px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.Text1 {
+    position: absolute;
+    top: 421px;
+    margin-left: 20%;
+    text-align: center;
+    line-height: 10px;
+}
+.container {
+    background-color: #001E4A;
+}

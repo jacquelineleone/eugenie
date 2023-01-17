@@ -1,11 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { Route } from 'react-router-dom';
+import NavBar from './components/NavBar/NavBar.jsx';
+import Home from './components/Home/Home.js';
 
 function App() {
   return (
-    <div className="App">
-      <p>Eugenie App</p>
-    </div>
+    <React.Fragment>
+      <Route exact path={'/'}><NavBar/></Route>
+      <Route exact path={'/SobreNosotras'}><NavBar/></Route>
+
+      <Route exact path={'/'}><Home/></Route>
+    </React.Fragment>
   );
 }
 

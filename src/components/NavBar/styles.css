@@ -1,0 +1,17 @@
+.container {
+    background-color: transparent;
+}
+.navegador {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+.logo {
+    height: 38.37px;
+    margin-left: 122px;
+    margin-top: 68px;
+}
+.links {
+    margin-top: 74px;
+    margin-left: 31.25%;
+}
