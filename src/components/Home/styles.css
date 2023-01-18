@@ -2,7 +2,7 @@
     background-color: #001E4A;
 }
 .AnimateASaltar {
-    font-size: 180px;
+    font-size: 195px;
     position: absolute;
     top: 855px;
     color: #FFF388;
@@ -132,4 +132,43 @@
     text-align: center;
 
     color: #FFF388;
+}
+.informacion-container {
+    position: absolute;
+    top: 2836px;
+    z-index: 110;
+    display: flex;
+    flex-direction: row;
+    margin-left: 3.5%;
+}
+.individual-container {
+    width: 495px;
+    height: 737px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.15);
+    border-radius: 45px;
+    margin-left: 60px;
+}
+.informacion-img {
+    margin-top: 30px;
+    margin-left: 38px;
+}
+.informacion-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #032854;
+
+    margin-top: 23px;
+}
+.informacion-text {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #032854;
+
+    margin-left: 38px;
+    margin-right: 38px;
 }

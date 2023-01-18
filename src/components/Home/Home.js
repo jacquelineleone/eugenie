@@ -5,11 +5,31 @@ import './styles.css';
 import header from '../../assets/hder.png';
 import yellow from '../../assets/yellow.png';
 import searchIcon from '../../assets/Icon/searchIcon.png';
-import recorte from '../../assets/recorte.png'
+import recorte from '../../assets/recorte.png';
+import emprendimientos from '../../assets/emprendimientos.png';
+import franquicia from '../../assets/franquicia.png';
+import personal from '../../assets/personal.png';
 
 export default function Home() {
     return (
         <div className='container'>
+            <div className="informacion-container">
+                <div className="individual-container">
+                    <img src={personal} className="informacion-img"/>
+                    <p className="informacion-title">PERSONALES</p>
+                    <p className="informacion-text">Cumplí tus sueños personales o profesionales. En Eugénie podés encontrar la mejor financiación pensada a tu medida.</p>
+                </div>
+                <div className="individual-container">
+                    <img src={franquicia} className="informacion-img"/>
+                    <p className="informacion-title">ACELERADORA</p>
+                    <p className="informacion-text">Potenciamos y acompañamos proyectos liderados por mujeres.</p>
+                </div>
+                <div className="individual-container">
+                    <img src={emprendimientos} className="informacion-img"/>
+                    <p className="informacion-title">EMPRENDIMIENTOS</p>
+                    <p className="informacion-text">Promovemos el espíritu emprendedor de la mujer. Financiamos tu proyecto y apostamos a crecer en independencia financiera.</p>
+                </div>
+            </div>
             <div className="recorte-container">
                 <p className="recorte-text">
                     APOYAMOS A <b className="recorte-highlight">MUJERES</b> QUE <b className="recorte-highlight">SUEÑAN</b>,
