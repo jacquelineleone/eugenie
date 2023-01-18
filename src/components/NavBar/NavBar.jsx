@@ -1,12 +1,10 @@
 import React from "react";
 import './styles.css';
 import { StyledLink } from "./NavBar.js";
-import { Link } from "react-router-dom";
 
 //Assets
 import backgroundImage from '../../assets/menu.png';
 import logo from '../../assets/logo.png';
-import header from '../../assets/hder.png'
 
 export default function NavBar() {
     

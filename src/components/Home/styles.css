@@ -82,3 +82,54 @@
 .response-highlight {
     font-weight: 700;
 }
+.recorte-container {
+    position: absolute;
+    top: 1473px;
+    z-index: 100;
+}
+.recorte-text {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #032854;
+
+    position: absolute;
+    margin-top: 785px;
+    margin-left: 25%;
+}
+.recorte-highlight {
+    font-weight: 800;
+}
+.recorte-buttons {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 27%;
+    margin-top: 947px;
+}
+.button {
+    background-color: #032854;
+    width: 349px;
+    height: 77px;
+    border-radius: 20px;
+
+    margin-left: 64px;
+}
+.button-p-1 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.button-p-2 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFF388;
+}
