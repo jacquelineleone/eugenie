@@ -139,7 +139,7 @@
     z-index: 110;
     display: flex;
     flex-direction: row;
-    margin-left: 3.5%;
+    margin-left: 100px;
 }
 .individual-container {
     width: 495px;
