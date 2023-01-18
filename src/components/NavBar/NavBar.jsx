@@ -17,9 +17,9 @@ export default function NavBar() {
                 <div className='links'>
                     <StyledLink to={'/SobreNosotras'}>Sobrenosotras</StyledLink>
                     <StyledLink to={'/Capacitaciones'}>Capacitaciones</StyledLink>
-                    <StyledLink to={'/Creditos'}>Créditos</StyledLink>
-                    <StyledLink to={'Incubadora'}>Incubadora</StyledLink>
-                    <StyledLink to={'/Contacto'}>Contacto</StyledLink>
+                    <StyledLink>Créditos</StyledLink>
+                    <StyledLink>Incubadora</StyledLink>
+                    <StyledLink>Contacto</StyledLink>
                 </div>
             </div>
             <img src={backgroundImage} className='backgroundImage'/>

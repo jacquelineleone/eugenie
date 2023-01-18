@@ -1,3 +1,6 @@
+.container {
+    background-color: #001E4A;
+}
 .AnimateASaltar {
     font-size: 195px;
     position: absolute;
@@ -5,6 +8,7 @@
     color: #FFF388;
     justify-content: center;
     align-items: center;
+    padding-left: 20px;
 }
 .TenemosLoNecesario {
     font-size: 55px;
@@ -23,6 +27,58 @@
     text-align: center;
     line-height: 10px;
 }
-.container {
-    background-color: #001E4A;
+.yellow-container {
+    position: absolute;
+    top: 1233px;
+}
+.yellow-question {
+    background-color: #FFFFFF;
+    width: 1110px;
+    height: 77px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+
+    position: absolute;
+    top: 333px;
+    margin-left: 20%;
+
+    display: flex;
+    flex-direction: row;
+}
+.yellow-question-p {
+    color: #032854;
+    font-weight: 400;
+    font-size: 35px;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.searchIcon {
+    width: 45px;
+    height: 45px;
+    margin-top: 15px;
+    margin-left: 547px;
+}
+.yellow-response {
+    width: 1105px;
+    height: 364px;
+    border-radius: 39px;
+    background-color: #FFFFFF50;
+
+    position: absolute;
+    top: 333px;
+    margin-left: 20%;
+
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
+
+}
+.yellow-response-p {
+    margin-top: 109px;
+    margin-left: 104px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 41px;
+    color: #032854;
+}   
+.response-highlight {
+    font-weight: 700;
 }
