@@ -26,6 +26,7 @@
     position: absolute;
     top: 1403px;
     left: 224px;
+    width: 884px;
 }
 .valores-item-title-div {
     width: 374px;
@@ -35,16 +36,16 @@
     border-radius: 40px;
     position: absolute;
 
-    margin-top: 37px;
+    margin-top: 15px;
     margin-left: 127px;
+
+    display: flex;
+    align-items: center;
 }
 .valores-item-title {
     font-weight: 700;
     font-size: 40px;
-    line-height: 47px;
-
     text-transform: uppercase;
-
     color: #032854;
 
     margin-left: 135px;
@@ -54,14 +55,46 @@
     flex-direction: row;
 }
 .valores-item-description {
-    width: 651px;
     font-weight: 400;
-    font-size: 35px;
-    line-height: 41px;
+    font-size: 30px;
+    line-height: 35px;
 
     color: #032854;
-    margin-left: 236px;
+    width: 651px;
+
+    margin-left: 250px;
+    margin-top: -90px;
 }
-.about-valores-information {
+.about-valores-item {
+    margin-top: 120px;
+}
+.about-valores-hashtag {
     position: absolute;
+
+    left: 1084px;
+    top: 1228px;
+
+    display: flex;
+    flex-direction: column;
+}
+.valores-hashtag-grey {
+    position: absolute;
+    top: 800px;
+    left: 31px;
+}
+.valores-hashtag-text {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #032854;
+    z-index: 20;
+
+    position: absolute;
+    top: 952px;
+    left: 308px;
+}
+.valores-hashtag-text-highlight {
+    font-weight: 600;
 }

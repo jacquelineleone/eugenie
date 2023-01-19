@@ -9,6 +9,8 @@ import recurso from "../../assets/recurso.png";
 import item1 from "../../assets/item1.png";
 import item2 from "../../assets/item2.png";
 import item3 from "../../assets/item3.png";
+import grey from "../../assets/grey.png";
+import nosotras from "../../assets/nosotras.png";
 
 export default function About() {
     return (
@@ -22,7 +24,7 @@ export default function About() {
             </div>
             <div className="about-valores-container">
                 <div className="about-valores-information">
-                    <div className="about-valores-item">
+                    <div className="about-valores-item-first">
                         <div className="valores-item-title-encabezado">
                             <img src={item1} style={{zIndex: 90}}/>
                             <div className="valores-item-title-div">
@@ -57,6 +59,11 @@ export default function About() {
                         </p>
                     </div>
                 </div>
+            </div>
+            <div className="about-valores-hashtag">
+                <img src={nosotras}/>
+                <p className="valores-hashtag-text">#PoryPara<b className="valores-hashtag-text-highlight">Mujeres</b></p>
+                <img src={grey} className="valores-hashtag-grey"/>
             </div>
         </div>
     )
