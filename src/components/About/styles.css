@@ -98,3 +98,137 @@
 .valores-hashtag-text-highlight {
     font-weight: 600;
 }
+.about-grupo-company {
+    position: absolute;
+    top: 2452px;
+}
+.about-grupo-company-textContainer {
+    position: absolute;
+    margin-top: 905px;
+    margin-left: 261px;
+    width: 1300px;
+}
+.about-grupo-company-text {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 41px;
+    
+    color: #032854;
+}
+.about-grupo-company-text-highlight {
+    font-weight: 700;
+}
+.grupo-company-button-moreInfo {
+    width: 524px;
+    height: 112px;
+    background: #FFF388;
+    border-radius: 30px;
+
+    position: absolute;
+    top: 1440px;
+    left: 309px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grupo-company-link-moreInfo {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    z-index: 80;
+
+    text-transform: uppercase;
+
+    color: #032854;
+}
+.grupo-company-linkL-moreInfo {
+    text-decoration: none;
+}
+.about-grupo-company-logo {
+    position: absolute;
+    left: 1552px;
+    top: 831px;
+    z-index: 30;
+}
+.about-recorte-cv {
+    position: absolute;
+    top: 3573px;
+    z-index: 20;
+}
+.about-recorte-cv-text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #032854;
+
+    position: absolute;
+    top: 702px;
+    left: 360px;
+    width: 1213px;
+}
+.about-recorte-cv-button {
+    position: absolute;
+    width: 327px;
+    height: 66px;
+    left: 797px;
+    top: 870px;
+
+    background: #032854;
+    border-radius: 45px;
+
+    z-index: 50;
+}
+.about-recorte-cv-button-text {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    margin-top: 15px;
+}
+.about-recorte-wsp {
+    position: absolute;
+    top: 4568px;
+    z-index: 10;
+}
+.about-recorte-wsp-text {
+    position: absolute;
+    top: 180px;
+    left: 688px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.about-recorte-wsp-button{
+    position: absolute;
+    width: 615px;
+    height: 96px;
+    left: 653px;
+    top: 378px;
+    background: rgba(255, 246, 173, 0.97);
+    border-radius: 45px;
+}
+.about-recorte-wsp-button-text{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+
+    text-align: center;
+
+    color: #032854;
+    margin-top: 30px;
+}
+.about-footer {
+    position: absolute;
+    z-index: 60;
+    top: 5174px;
+}
