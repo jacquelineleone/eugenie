@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="container-footer">
             <div className="data-footer">
                 <div className="footer-navigation">
-                    <a href="/SobreNosotras" className="footer-navigation-a">Sobre Nosotras</a>
+                    <a href="/SobreNosotras" className="footer-navigation-a">Sobre nosotras</a>
                     <div className="footer-navigation-link">
                     <Link to={'/SobreNosotras'} className="prueba">Sobre nosotras</Link>
                     <Link to={'/Capacitaciones'} className="footer-link">Capacitaciones</Link>

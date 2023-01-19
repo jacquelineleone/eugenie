@@ -3,6 +3,7 @@ import './styles.css';
 import Slider from "../Slider/Slider.js";
 import SliderEmpresas from "../SliderEmpresas/SliderEmpresas.js";
 import Footer from "../Footer/Footer";
+import Top from "../Top/Top";
 
 //Assets
 import header from '../../assets/hder.png';
@@ -17,6 +18,7 @@ import comentarios from '../../assets/comentarios.png';
 export default function Home() {
     return (
         <div className='container'>
+            <Top />
             <div className="footer-container">
                 <Footer />
             </div>
