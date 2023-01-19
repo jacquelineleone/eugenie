@@ -1,7 +1,7 @@
 .container {
     background-color: #001E4A;
 }
-.AnimateASaltar {
+/*.AnimateASaltar {
     font-size: 195px;
     position: absolute;
     top: 855px;
@@ -9,27 +9,41 @@
     justify-content: center;
     align-items: center;
     padding-left: 20px;
-}
-.TenemosLoNecesario {
-    font-size: 55px;
-    color: #FFFFFF;
-    font-weight: 500;
-}
-.AlcancesTusObjetivos {
-    font-size: 55px;
-    color: #FFFFFF;
-    font-weight: 700;
-}
-.Text1 {
+}*/
+.header-container {
     position: absolute;
-    top: 421px;
-    margin-left: 20%;
+}
+.header-text {
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 65px;
     text-align: center;
-    line-height: 10px;
+
+    color: #FFFFFF;
+
+    position: absolute;
+    margin-left: 541px;
+    margin-top: 274px;
+}
+.header-text-motivation {
+    position: absolute;
+    font-weight: 900;
+    font-size: 195px;
+    line-height: 229px;
+    color: #FFF388;
+
+    margin-top: 708px;
+}
+.header-img {
+    z-index: 90;
+}
+.header-highlight {
+    font-weight: 700;
 }
 .yellow-container {
     position: absolute;
-    top: 1233px;
+    top: 1086px;
+    z-index: 90;
 }
 .yellow-question {
     background-color: #FFFFFF;
@@ -84,7 +98,7 @@
 }
 .recorte-container {
     position: absolute;
-    top: 1473px;
+    top: 1233px;
     z-index: 100;
 }
 .recorte-text {
@@ -135,7 +149,7 @@
 }
 .informacion-container {
     position: absolute;
-    top: 2836px;
+    top: 2636px;
     z-index: 110;
     display: flex;
     flex-direction: row;
@@ -174,7 +188,7 @@
 }
 .slider-container {
     position: absolute;
-    margin-top: 3800px;
+    margin-top: 3600px;
     margin-left: 712px;
     z-index: 120;
 }
@@ -188,7 +202,7 @@
 
     color: #032854;
     position: absolute;
-    margin-top: 3800px;
+    margin-top: 3600px;
     margin-left: 129px;
 
     z-index: 120;
@@ -201,6 +215,16 @@
 }
 .carousel-1-background {
     position: absolute;
-    margin-top: 3027px;
+    margin-top: 2800px;
     z-index: 110;
+}
+.sliderEmpresas-container {
+    position: absolute;
+    margin-top: 4213px;
+    z-index: 130;
+}
+.footer-container {
+    position: absolute;
+    top: 4426px;
+    z-index: 140;
 }

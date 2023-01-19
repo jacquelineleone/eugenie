@@ -1,6 +1,8 @@
 import React from "react";
 import './styles.css';
 import Slider from "../Slider/Slider.js";
+import SliderEmpresas from "../SliderEmpresas/SliderEmpresas.js";
+import Footer from "../Footer/Footer";
 
 //Assets
 import header from '../../assets/hder.png';
@@ -15,6 +17,14 @@ import comentarios from '../../assets/comentarios.png';
 export default function Home() {
     return (
         <div className='container'>
+            <div className="footer-container">
+                <Footer />
+            </div>
+            <div className="carousel-2">
+                <div className="sliderEmpresas-container">
+                    <SliderEmpresas />
+                </div>
+            </div>
             <div className="carousel-1">
                 <div className="slider-container">
                     <Slider />
@@ -71,12 +81,12 @@ export default function Home() {
                 <img src={yellow}/>
             </div>
             <div className="header-container">
-                <img src={header} className='Header'/>
-                <div className="Text1">
-                    <p className="TenemosLoNecesario">Tenemos lo necesario para que</p>
-                    <p className="AlcancesTusObjetivos">alcances tus objetivos</p>
-                </div>
-                <h1 className="AnimateASaltar">ANIMATE A SALTAR</h1>
+                <p className="header-text">
+                    Tenemos lo necesario para que 
+                    <br/><b className="header-highlight">alcances tus objetivos</b>
+                </p>
+                <p className="header-text-motivation">ANIMATE A SALTAR</p>
+                <img src={header}/>
             </div>
         </div>
     )

@@ -7,9 +7,6 @@ import Home from './components/Home/Home.js';
 function App() {
   return (
     <React.Fragment>
-      <Route exact path={'/'}><NavBar/></Route>
-      <Route exact path={'/SobreNosotras'}><NavBar/></Route>
-
       <Route exact path={'/'}><Home/></Route>
     </React.Fragment>
   );

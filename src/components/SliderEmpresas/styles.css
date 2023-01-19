@@ -1,0 +1,18 @@
+.slider-empresas {
+    position: absolute;
+    overflow: hidden;
+    height: 99px;
+    width: 1920px;
+}
+.slider-inner-empresas {
+    display: flex;
+    cursor: grab;
+}
+.item-empresas {
+    width: 280px;
+    height: 99px;
+    margin-left: 45px;
+}
+.image-slider {
+    pointer-events: none;
+}
