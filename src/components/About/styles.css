@@ -1,0 +1,67 @@
+.about-amarillo-img {
+    z-index: 100;
+}
+.about-amarillo-recurso {
+    position: absolute;
+    top: 373px;
+}
+.about-amarillo-logo {
+    position: absolute;
+    left: 741px;
+    top: 433px;
+}
+.about-amarillo-text {
+    position: absolute;
+    left: 741px;
+    top: 564px;
+    width: 902px;
+
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #032854;
+}
+.about-valores-container {
+    position: absolute;
+    top: 1403px;
+    left: 224px;
+}
+.valores-item-title-div {
+    width: 374px;
+    height: 69px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    position: absolute;
+
+    margin-top: 37px;
+    margin-left: 127px;
+}
+.valores-item-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    text-transform: uppercase;
+
+    color: #032854;
+
+    margin-left: 135px;
+}
+.valores-item-title-encabezado {
+    display: flex;
+    flex-direction: row;
+}
+.valores-item-description {
+    width: 651px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 41px;
+
+    color: #032854;
+    margin-left: 236px;
+}
+.about-valores-information {
+    position: absolute;
+}
