@@ -1,7 +1,7 @@
 .capacitaciones-header-container {
     position: absolute;
     width: 1920px;
-    height: 4621px;
+    height: 3619px;
     top: 0px;
 
     background: #032854;
@@ -76,4 +76,82 @@
 }
 .capacitaciones-header-explicacion-respuesta-highlight {
     font-weight: 700;
+}
+.capacitaciones-recorte-title {
+    position: absolute;
+    font-weight: 900;
+    font-size: 95px;
+    line-height: 111px;
+
+    color: #032854;
+    left: 252px;
+    top: 1798px;
+
+    z-index: 40;
+}
+.capacitaciones-recorte-img {
+    position: absolute;
+    top: 1040px;
+}
+.capacitaciones-tarjetas-container {
+    position: absolute;
+    top: 2304px;
+
+    display: flex;
+    margin-left: 117px;
+}
+.capacitaciones-tarjeta-div {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.15);
+    border-radius: 45px;
+    width: 495px;
+    height: 737px;
+
+    margin-left: 50px;
+}
+.capacitaciones-tarjeta-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #032854;
+    margin-bottom: 0px;
+    width: 470px;
+}
+.capacitaciones-tarjeta-img {
+    margin-top: 27px;
+    margin-left: 37px;
+}
+.capacitaciones-tarjeta-description {
+    width: 433px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #032854;
+}
+.capacitaciones-tarjeta-button {
+    width: 276px;
+    height: 56px;
+    background: rgba(255, 246, 173, 0.97);
+    border-radius: 20px;
+    margin-left: 111px;
+
+    position: absolute;
+}
+.capacitaciones-tarjeta-button-text {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #032854;
+    margin-top: 13px;
+}
+.capacitaciones-footer-container {
+    position: absolute;
+    top: 3180px;
 }

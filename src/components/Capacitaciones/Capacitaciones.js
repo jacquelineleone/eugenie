@@ -1,10 +1,15 @@
 import React from "react";
 import './styles.css';
 import Top from "../Top/Top";
+import Footer from "../Footer/Footer"
 
 //Assets
 import computer from '../../assets/computer.png';
 import searchIcon from '../../assets/Icon/searchIcon.png';
+import finanzasPersonales from '../../assets/finanzasPersonales.png';
+import marketingDigital from '../../assets/marketingDigital.png';
+import marketingEmprendedores from '../../assets/marketingEmprendedores.png';
+import recorte from '../../assets/recorte.png';
 
 export default function Capacitaciones() {
     return (
@@ -26,6 +31,53 @@ export default function Capacitaciones() {
                         </p>
                     </div>
                 </div>
+                <div className="capacitaciones-recorte">
+                    <p className="capacitaciones-recorte-title">NUESTRAS CAPACITACIONES</p>
+                    <img src={recorte} className="capacitaciones-recorte-img"/>
+                </div>
+                <div className="capacitaciones-tarjetas-container">
+                    <div className="capacitaciones-tarjeta-div">
+                        <img src={marketingDigital} className="capacitaciones-tarjeta-img"/>
+                        <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
+                            <p className="capacitaciones-tarjeta-title">marketing digital</p>
+                            <p className="capacitaciones-tarjeta-description">
+                            Aprendé a usar WIX para garantizar
+                            tu presencia completa en 
+                            las redes. Crea tu web gratis.
+                            </p>
+                        </div>
+                        <div className="capacitaciones-tarjeta-button">
+                            <p className="capacitaciones-tarjeta-button-text">LA QUIERO</p>
+                        </div>
+                    </div>
+                    <div className="capacitaciones-tarjeta-div">
+                        <img src={finanzasPersonales} className="capacitaciones-tarjeta-img"/>
+                        <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
+                            <p className="capacitaciones-tarjeta-title">finanzas Personales</p>
+                            <p className="capacitaciones-tarjeta-description">              
+                            Gestión del tiempo
+                            </p>
+                        </div>
+                        <div className="capacitaciones-tarjeta-button">
+                            <p className="capacitaciones-tarjeta-button-text">LA QUIERO</p>
+                        </div>
+                    </div>
+                    <div className="capacitaciones-tarjeta-div">
+                        <img src={marketingEmprendedores} className="capacitaciones-tarjeta-img"/>
+                        <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
+                            <p className="capacitaciones-tarjeta-title">marketing para emprendedoras</p>
+                            <p className="capacitaciones-tarjeta-description">                        
+                            ¿Por qué y cómo emprender?    
+                            </p>
+                        </div>
+                        <div className="capacitaciones-tarjeta-button">
+                            <p className="capacitaciones-tarjeta-button-text">LA QUIERO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="capacitaciones-footer-container">
+                <Footer />
             </div>
         </div>
     )
