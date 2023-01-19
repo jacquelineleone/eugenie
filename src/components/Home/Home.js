@@ -1,5 +1,6 @@
 import React from "react";
 import './styles.css';
+import Slider from "../Slider/Slider.js";
 
 //Assets
 import header from '../../assets/hder.png';
@@ -9,10 +10,18 @@ import recorte from '../../assets/recorte.png';
 import emprendimientos from '../../assets/emprendimientos.png';
 import franquicia from '../../assets/franquicia.png';
 import personal from '../../assets/personal.png';
+import comentarios from '../../assets/comentarios.png';
 
 export default function Home() {
     return (
         <div className='container'>
+            <div className="carousel-1">
+                <div className="slider-container">
+                    <Slider />
+                </div>
+                <p className="carousel-1-title">Conocé la <b className="carousel-highlight-medium">experiencia</b> de <b className="carousel-highlight">nuestras clientas</b></p>
+                <img src={comentarios} className="carousel-1-background"/>
+            </div>
             <div className="informacion-container">
                 <div className="individual-container">
                     <img src={personal} className="informacion-img"/>

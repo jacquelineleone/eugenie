@@ -172,3 +172,35 @@
     margin-left: 38px;
     margin-right: 38px;
 }
+.slider-container {
+    position: absolute;
+    margin-top: 3800px;
+    margin-left: 712px;
+    z-index: 120;
+}
+.carousel-1-title {
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 88px;
+    width: 500px;
+
+    text-transform: uppercase;
+
+    color: #032854;
+    position: absolute;
+    margin-top: 3800px;
+    margin-left: 129px;
+
+    z-index: 120;
+}
+.carousel-highlight-medium {
+    font-weight: 700;
+}
+.carousel-highlight {
+    font-weight: 900;
+}
+.carousel-1-background {
+    position: absolute;
+    margin-top: 3027px;
+    z-index: 110;
+}
